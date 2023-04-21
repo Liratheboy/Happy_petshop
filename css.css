@@ -1,0 +1,10 @@
+/*Cor Fundo - */
+:root{
+  --cor-azul: #4EDCE1
+  --cor-rosa: #F2039B
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
