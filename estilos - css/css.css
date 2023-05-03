@@ -4,10 +4,14 @@
   --cor-rosa: #F2039B;
 }
 
+/*------------------------------------------*/
+
 *{
   margin: 0;
   padding: 0;
 }
+
+/*------------------------------------------*/
 
 .header_container{
   display: flex;
@@ -49,13 +53,11 @@
 
 .reserva_texto{
   font-size: 2.5rem;
-  text-align: center;
 }
 
 .taxidog_texto{
   margin-top: 1vw;
   font-size: 1.5rem;
-  text-align: center;
 }
 
 .contato_texto{
@@ -72,6 +74,7 @@
 }
 
 .img_localizacao{
+  margin-top: 1vw;
   text-align: center;
 }
 
@@ -79,13 +82,50 @@
   margin-top: 2vw;
 }
 
+/*------------------------------------------*/
+
+.segunda_secao{
+  box-sizing: border-box;
+  margin-top: 5vh;
+  margin-left: 20%;
+  margin-right: 20%;
+  width: 60%;
+}
+
+/*------------------------------------------*/
+
+.terceira_secao{
+  box-sizing: border-box;
+  margin-top: 5vh;
+  margin-left: 20%;
+  margin-right: 20%;
+  width: 60%;
+} 
+
+.texto_brindes{
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.acessorios_coleiras{
+  display: flex;
+  justify-content: space-around;
+}
+
+.acessorios_comida{
+  display: flex;
+  justify-content: space-around;
+}
+
+.acessorios_brinquedos{
+  display: flex;
+  justify-content: space-around;
+}
 
 
 
 
-
-
-
+/*------------------------------------------*/
 
 @media (max-width: 400px){
 
