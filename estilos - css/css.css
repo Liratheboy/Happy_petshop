@@ -1,7 +1,7 @@
 /*Cor Fundo - */
 :root{
-  --cor-azul: #4EDCE1
-  --cor-rosa: #F2039B
+  --cor-azul: #4EDCE1;
+  --cor-rosa: #F2039B;
 }
 
 *{
@@ -20,12 +20,12 @@
 }
 
 .titulo_header{
-  margin-left: 40vw;
+  margin-left: 41.5vw;
   font-size: 3.5rem;
 }
 
 .frase_efeito{
-  margin-left: 40vw;
+  margin-left: 41.5vw;
   font-size: 2rem;
 }
 
@@ -33,6 +33,51 @@
   margin-top: 5vh;
 }
 
+.primeira_secao{
+  margin-left: 25%;
+  margin-right: 25%;
+  box-sizing: border-box;
+  padding: 0.5%;
+  width: 50%;
+  border: 5px solid #4EDCE1;
+}
+
+.conteudo_secao{
+  padding: 0.5%;
+  text-align: center;
+}
+
+.reserva_texto{
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.taxidog_texto{
+  margin-top: 1vw;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.contato_texto{
+  font-size: 1.5rem;
+}
+
+.localizacao_texto{
+  font-size: 1.3rem;
+}
+
+.obs_localizacao{
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.img_localizacao{
+  text-align: center;
+}
+
+.localizacao_maps{
+  margin-top: 2vw;
+}
 
 
 
