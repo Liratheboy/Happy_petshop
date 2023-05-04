@@ -124,11 +124,16 @@
 }
 
 .imgs{
-  border: 2px solid #F2039B;
+  border: 3px solid #F2039B;
   margin: 0.5vw 0 0.5vw 0;
 }
 
-
+.preco{
+  background-color: #808080;
+  margin-top: 2px;
+  text-align: center;
+  font-size: 25px;
+}
 /*------------------------------------------*/
 
 @media (max-width: 400px){
