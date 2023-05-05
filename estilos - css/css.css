@@ -92,6 +92,16 @@
   width: 60%;
 }
 
+.fotos_dogs{
+  display: flex;
+  gap: 10px;
+  overflow-x: scroll;
+}
+
+.foto{
+  border-radius: 10px;
+}
+
 /*------------------------------------------*/
 
 .terceira_secao{
@@ -124,8 +134,10 @@
 }
 
 .imgs{
-  border: 3px solid #F2039B;
+  border: 2px solid #F2039B;
   margin: 0.5vw 0 0.5vw 0;
+  box-shadow: 5px 5px 20px black;
+  border-radius: 3px;
 }
 
 .preco{
