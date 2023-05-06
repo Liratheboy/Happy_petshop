@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'indie';
+  src: url('../IndieFlower-Regular.ttf') format(truetype);
+  font-weight: normal;
+  font-style: normal;
+}
+
 /*Cor Fundo - */
 :root{
   --cor-azul: #4EDCE1;
@@ -24,16 +31,27 @@
 }
 
 .titulo_header{
-  margin-left: 41.5vw;
-  font-size: 3.5rem;
+  font-family: indie;
+  margin-left: 41.1vw;
+  font-size: 4rem;
+}
+
+.span1{
+  color: #4EDCE1;
+}
+
+.span2{
+  color: #F2039B;
 }
 
 .frase_efeito{
-  margin-left: 41.5vw;
-  font-size: 2rem;
+  font-family: 'Kalam', cursive;
+  margin-left: 41vw;
+  font-size: 2.2rem;
 }
 
 .main_container{
+  font-family: 'Amatic SC', cursive;
   margin-top: 5vh;
 }
 
@@ -52,25 +70,26 @@
 }
 
 .reserva_texto{
-  font-size: 2.5rem;
+  font-size: 3.2rem;
 }
 
 .taxidog_texto{
   margin-top: 1vw;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 .contato_texto{
-  font-size: 1.5rem;
+  font-size: 1.9rem;
+  margin-bottom: 10px;
 }
 
 .localizacao_texto{
-  font-size: 1.3rem;
+  font-size: 1.8rem;
 }
 
 .obs_localizacao{
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
 .img_localizacao{
