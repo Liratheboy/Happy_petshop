@@ -1,4 +1,4 @@
-@font-face {
+@font-face{
   font-family: 'indie';
   src: url('../IndieFlower-Regular.ttf') format(truetype);
   font-weight: normal;
@@ -146,7 +146,12 @@
 .texto_brindes{
   text-align: center;
   font-size: 2.5rem;
-  margin-bottom: 0.5vw;
+}
+
+.texto_brinde{
+  text-align: center;
+  font-size: 2.3rem;
+  margin-bottom: 0.7vw;
 }
 
 .acessorios_coleiras{
@@ -178,26 +183,4 @@
   margin-top: 2px;
   text-align: center;
   font-size: 27px;
-}
-/*------------------------------------------*/
-
-@media (max-width: 400px){
-
-  .titulo_header{
-    margin-left: 30vw;
-    font-size: 2.5rem;
-
-  }
-  .frase_efeito{
-    margin-left: 20vw;
-    font-size: 2rem;
-  }
-
-
-
-
-
-
-
-
 }
