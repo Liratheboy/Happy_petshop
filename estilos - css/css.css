@@ -1,3 +1,4 @@
+/* fonte */
 @font-face{
   font-family: 'indie';
   src: url('../IndieFlower-Regular.ttf') format(truetype);
@@ -5,20 +6,26 @@
   font-style: normal;
 }
 
-/*Cor Fundo - */
+
+/*---------------- Esconde barra de rolagem --------------*/
+html{
+  overflow-x: hidden;
+}
+
+/* -------------- Cor Fundo --------------*/
 :root{
   --cor-azul: #4EDCE1;
   --cor-rosa: #F2039B;
 }
 
-/*------------------------------------------*/
+/* - Formatação - */
 
 *{
   margin: 0;
   padding: 0;
 }
 
-/*------------------------------------------*/
+/*-------------- Seção Header --------------*/
 
 .header_container{
   display: flex;
@@ -49,6 +56,8 @@
   margin-left: 41vw;
   font-size: 2.2rem;
 }
+
+/*------------- Primeira Seção ----------------*/
 
 .main_container{
   font-family: 'Amatic SC', cursive;
@@ -102,7 +111,7 @@
   margin-top: 2vw;
 }
 
-/*------------------------------------------*/
+/*----------- Segunda Seção -------------*/
 
 
 .segunda_secao{
@@ -133,7 +142,7 @@
   border-radius: 10px;
 }
 
-/*------------------------------------------*/
+/*-------- Terceira Seção ----------*/
 
 .terceira_secao{
   /*1.152 px de widht*/
